@@ -39,7 +39,8 @@ export function ResumePage() {
 
           <div className="contact-strip">
             <span>{profile.email}</span>
-            <span>{profile.website}</span>
+            <span>{profile.contact.phone}</span>
+            <span>{profile.contact.linkedin}</span>
           </div>
         </article>
 
@@ -47,7 +48,7 @@ export function ResumePage() {
           <SectionHeading
             eyebrow="Highlights"
             title="Core strengths"
-            description="A concise snapshot of what you bring to product and engineering work."
+            description="A concise snapshot of delivery capability across automation, cloud, and platform engineering."
           />
           <div className="bullet-stack">
             {profile.highlights.map((item) => (
@@ -62,7 +63,7 @@ export function ResumePage() {
           <SectionHeading
             eyebrow="Experience"
             title="Professional journey"
-            description="Experience is arranged to feel more like an executive profile than a plain CV."
+            description="Experience arranged as a modern professional profile with delivery context and ownership."
           />
           <div className="timeline">
             {profile.experience.map((item) => (
@@ -82,7 +83,7 @@ export function ResumePage() {
           <SectionHeading
             eyebrow="Skills"
             title="Technology stack"
-            description="Core tools and technologies that support modern product delivery."
+            description="Core tools and platforms used across enterprise DevOps and CI/CD delivery."
           />
           <div className="chip-group">
             {profile.skills.map((skill) => (
@@ -93,11 +94,51 @@ export function ResumePage() {
           </div>
         </article>
 
+        <article className="panel">
+          <SectionHeading
+            eyebrow="Education"
+            title="Academic background"
+            description="Education details from your resume, presented in the same executive profile style."
+          />
+          <div className="timeline">
+            {profile.education.map((item) => (
+              <div className="timeline-item" key={`${item.institution}-${item.degree}`}>
+                <div className="timeline-top">
+                  <h3>{item.degree}</h3>
+                  <span>{item.period}</span>
+                </div>
+                <strong>{item.institution}</strong>
+                <p>{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </article>
+
+        <article className="panel">
+          <SectionHeading
+            eyebrow="Recognition"
+            title="Awards and certifications"
+            description="Formal recognition and certifications that strengthen the profile."
+          />
+          <div className="bullet-stack">
+            {profile.awards.map((award) => (
+              <div className="bullet-card" key={award}>
+                {award}
+              </div>
+            ))}
+            {profile.certifications.map((certification) => (
+              <div className="bullet-card" key={certification}>
+                Certification: {certification}
+              </div>
+            ))}
+          </div>
+        </article>
+
         <article className="panel metrics-panel">
           <SectionHeading
             eyebrow="Positioning"
             title="How this profile reads"
-            description="A compact view of your working style and strengths."
+            description="A compact view of working style, domain, and current professional direction."
           />
           <div className="metric-grid">
             {profile.metrics.map((metric) => (

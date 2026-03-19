@@ -1,84 +1,121 @@
 PROFILE = {
-    "name": "Pavan Yadav",
-    "title": "Software Engineer | AI Builder | Full-Stack Developer",
-    "location": "India",
+    "name": "Pavankumar Yadav",
+    "title": "DevOps Engineer | CI/CD | Cloud-Native Delivery",
+    "location": "Mumbai, India",
     "summary": (
-        "I design and ship high-quality digital products with a focus on "
-        "clean engineering, product clarity, and business-ready execution."
+        "DevOps Engineer with 4 years of experience in CI/CD pipeline "
+        "development, infrastructure automation, and cloud-native deployments. "
+        "Hands-on with Jenkins, Azure DevOps, Groovy, Python, Docker, "
+        "Kubernetes, Git, monitoring, code quality tooling, and artifact management."
     ),
-    "email": "hello@paverse.in",
-    "website": "https://paverse.in",
+    "email": "pavanyadav641@gmail.com",
+    "website": "https://linkedin.com/in/pavankumar01/",
     "highlights": [
-        "Builds production-focused web applications",
-        "Combines AI, backend systems, and modern frontend engineering",
-        "Designs interfaces that feel premium, clear, and business-ready",
+        "Built and maintained CI/CD pipelines for 5G product verification and deployment",
+        "Automated Docker image build and deployment flows for Azure Container Registry and AKS",
+        "Worked across Jenkins, Azure DevOps, Gerrit, Nexus, SonarQube, Elasticsearch, and Grafana",
     ],
     "experience": [
         {
-            "role": "Founder / Product Engineer",
-            "company": "Paverse",
-            "period": "2024 - Present",
+            "role": "Systems Engineer",
+            "company": "Tata Consultancy Services Ltd.",
+            "period": "Oct 2023 - Present",
             "description": (
-                "Building portfolio products, AI prototypes, and polished web "
-                "experiences with a strong focus on usability and delivery speed."
+                "Designed and implemented multiple end-to-end CI/CD pipelines "
+                "using Jenkins, Groovy, Shell script, and Git for the verification "
+                "and deployment of 5G products."
             ),
         },
         {
-            "role": "Full-Stack Developer",
-            "company": "Independent Projects",
-            "period": "2022 - Present",
+            "role": "Assistant Systems Engineer",
+            "company": "Tata Consultancy Services Ltd.",
+            "period": "Oct 2021 - Oct 2023",
             "description": (
-                "Delivered end-to-end applications using Python, APIs, databases, "
-                "and modern JavaScript frameworks."
+                "Automated Docker image workflows, deployed enterprise client "
+                "applications through Azure DevOps, integrated SonarQube, managed "
+                "AKS upgrades with Helm, and supported cloud access control with AWS IAM."
             ),
         },
     ],
     "skills": [
         "Python",
-        "FastAPI",
-        "React",
-        "TypeScript",
-        "REST APIs",
-        "SQL",
-        "UI Systems",
-        "Deployment",
+        "Shell Script",
+        "Groovy",
+        "Jenkins",
+        "Git",
+        "Azure DevOps",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Linux",
+        "AWS",
+        "Grafana",
+        "Elasticsearch",
+        "SonarQube",
+        "Nexus",
     ],
     "metrics": [
-        {"label": "Core Focus", "value": "Full-Stack + AI"},
-        {"label": "Approach", "value": "Enterprise-ready"},
-        {"label": "Delivery Style", "value": "Product-minded"},
+        {"label": "Experience", "value": "4 Years"},
+        {"label": "Current Focus", "value": "DevOps + CI/CD"},
+        {"label": "Domain", "value": "5G Products"},
     ],
+    "education": [
+        {
+            "institution": "Pune University",
+            "degree": "Bachelor of Engineering",
+            "period": "2016 - 2020",
+            "detail": "CGPA: 7.69/10",
+        },
+        {
+            "institution": "Higher Secondary",
+            "degree": "12th Standard",
+            "period": "2016",
+            "detail": "Score: 71.85%",
+        },
+    ],
+    "certifications": [
+        "AWS Cloud Practitioner",
+        "GitHub Actions",
+    ],
+    "awards": [
+        "On The Spot Award for outstanding contribution to the organization",
+        "Star of the Month Award for issue resolution and ownership",
+    ],
+    "contact": {
+        "phone": "+91-8652466403",
+        "linkedin": "linkedin.com/in/pavankumar01/",
+    },
 }
 
 PROJECTS = [
     {
-        "name": "Portfolio Command Center",
-        "category": "Personal Branding",
+        "name": "5G CI/CD Pipeline Engineering",
+        "category": "Enterprise Delivery",
         "description": (
-            "A portfolio platform with modular content sections, strong visual "
-            "hierarchy, and deployment-ready architecture."
+            "Designed and implemented end-to-end CI/CD pipelines for verification "
+            "and deployment of 5G products using Jenkins, Groovy, Shell scripting, and Git."
         ),
-        "stack": ["React", "TypeScript", "FastAPI", "CSS"],
-        "impact": "Created a professional personal web presence with scalable structure.",
+        "stack": ["Jenkins", "Groovy", "Shell Script", "Git"],
+        "impact": "Strengthened release reliability and streamlined enterprise deployment workflows.",
     },
     {
-        "name": "AI Workflow Assistant",
-        "category": "AI Product",
+        "name": "AKS Deployment Automation",
+        "category": "Cloud-Native Operations",
         "description": (
-            "An assistant-oriented application for orchestrating prompts, task flows, "
-            "and lightweight automation."
+            "Automated Docker image build and push to ACR, container deployment to AKS, "
+            "application upgrades with Helm, and production-grade rollout workflows."
         ),
-        "stack": ["Python", "APIs", "LLM Integration"],
-        "impact": "Reduced repetitive manual steps and improved workflow consistency.",
+        "stack": ["Azure DevOps", "Docker", "AKS", "Helm"],
+        "impact": "Enabled faster and more consistent delivery for enterprise client applications.",
     },
     {
-        "name": "Business Analytics Dashboard",
-        "category": "Data Experience",
+        "name": "Developer Platform Tooling",
+        "category": "Platform Reliability",
         "description": (
-            "A dashboard concept focused on high-signal reporting, executive-friendly "
-            "layout, and clean visual storytelling."
+            "Maintained SonarQube integrations, managed Nexus artifacts, configured "
+            "Gerrit-triggered sequential pipelines, and improved Jenkins job monitoring."
         ),
-        "stack": ["React", "Charts", "REST API"],
-        "impact": "Turned raw information into decision-ready insights.",
+        "stack": ["SonarQube", "Nexus", "Gerrit", "Elasticsearch", "Grafana"],
+        "impact": "Improved code quality enforcement, traceability, and operational feedback loops.",
     },
 ]

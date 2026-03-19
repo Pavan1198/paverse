@@ -37,9 +37,10 @@ def get_projects() -> list[dict]:
 def get_resume() -> dict:
     return {
         "hero": {
-            "headline": "Building products that look sharp and work hard.",
+            "headline": "Designing reliable delivery systems for enterprise software.",
             "subheadline": (
-                "A resume-style overview of experience, strengths, and delivery style."
+                "A resume-style view of DevOps experience, automation strengths, "
+                "and cloud-native delivery capability."
             ),
         },
         "profile": PROFILE,

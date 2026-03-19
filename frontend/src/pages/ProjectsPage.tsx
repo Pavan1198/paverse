@@ -15,18 +15,18 @@ export function ProjectsPage() {
     <div className="page detail-page">
       <section className="detail-hero projects-hero">
         <span className="eyebrow">Projects Template</span>
-        <h1>Selected projects with product context and technical depth.</h1>
+        <h1>Selected DevOps initiatives with platform, automation, and delivery impact.</h1>
         <p>
-          This view presents personal projects in a more professional format,
-          with category, delivery story, stack, and outcome.
+          This view translates your resume achievements into portfolio-style case studies,
+          showing enterprise work through systems, tooling, and outcomes.
         </p>
       </section>
 
       <section className="panel">
         <SectionHeading
-          eyebrow="Portfolio Work"
-          title="Project collection"
-          description="Curated work presented with a business-facing tone instead of a simple gallery."
+          eyebrow="Experience Highlights"
+          title="Featured work"
+          description="Real enterprise initiatives derived from your resume, presented in a stronger project-showcase format."
         />
 
         <div className="projects-grid">

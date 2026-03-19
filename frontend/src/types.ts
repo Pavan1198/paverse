@@ -10,6 +10,18 @@ export type ExperienceItem = {
   description: string;
 };
 
+export type EducationItem = {
+  institution: string;
+  degree: string;
+  period: string;
+  detail: string;
+};
+
+export type ContactInfo = {
+  phone: string;
+  linkedin: string;
+};
+
 export type Profile = {
   name: string;
   title: string;
@@ -21,6 +33,10 @@ export type Profile = {
   experience: ExperienceItem[];
   skills: string[];
   metrics: Metric[];
+  education: EducationItem[];
+  certifications: string[];
+  awards: string[];
+  contact: ContactInfo;
 };
 
 export type ResumePayload = {
