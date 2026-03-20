@@ -8,7 +8,7 @@ export function Shell() {
           <span className="brand-mark">P</span>
           <div>
             <strong>Paverse</strong>
-            <span>Portfolio Platform</span>
+            <span>DevOps Portfolio Platform</span>
           </div>
         </Link>
 
@@ -17,6 +17,10 @@ export function Shell() {
           <NavLink to="/resume">Resume</NavLink>
           <NavLink to="/projects">Projects</NavLink>
         </nav>
+
+        <Link className="topbar-cta" to="/resume">
+          View Profile
+        </Link>
       </header>
 
       <main>
